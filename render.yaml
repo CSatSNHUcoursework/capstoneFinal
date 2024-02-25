@@ -7,4 +7,11 @@ services:
   repo: https://github.com/tjhartline/capstone
   branch: master
   rootDir: capstone
-  
+  runtime: python
+
+databases:
+- name: prod
+  databaseName: animals
+  user: aacuser
+
+
